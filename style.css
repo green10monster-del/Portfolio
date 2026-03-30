@@ -4,9 +4,92 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
   background-color: #EFECEA;
 }
 
+.main-visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 542px;
+  background-image: url("img/27136818 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 70px;
+  color: #796C6C;
+}
+
+.about {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  gap: 20px;
+}
+.about-content img {
+  order: 0;
+  padding: 24px;
+}
+
+.about-text {
+  order: 1;
+  margin-left: auto; /* 右端に押し出す */
+  text-align: left;
+  max-width: 60%;
+}
+
+.about-text h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.works {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.work-item {
+  display: inline-block;
+  padding: 36px;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.skill-item {
+  background-color: #D7BCA7;
+  align-items: center; 
+  justify-content: flex-start; 
+  padding: 28px;
+  text-align: center;
+  display: flex;
+}
+
+.skill-item h4 {
+  order: 0;
+  padding: 0px 0 0 54px;
+}
+
+.skill-item p {
+  margin: 0;
+  flex: 1; 
+}
+
+.contact {
+  text-align: center;
+  margin-top: 24px;
+}
