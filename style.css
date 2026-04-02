@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Shippori Mincho B1
 }
 
 body {
@@ -28,11 +28,13 @@ body {
 }
 
 .about {
+  padding: 100px;
   text-align: center;
   margin-top: 24px;
 }
 
 .about-content {
+  padding: 50px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: flex-start; 
@@ -66,22 +68,22 @@ body {
 }
 
 .skills {
+  background-color: #D7BCA7;
+  padding: 50px 0 100px 0;
   text-align: center;
   margin-top: 24px;
 }
 
 .skill-item {
-  background-color: #D7BCA7;
   align-items: center; 
   justify-content: flex-start; 
-  padding: 28px;
+  padding: 50px 0 0 0;
   text-align: center;
   display: flex;
 }
 
 .skill-item h4 {
-  order: 0;
-  padding: 0px 0 0 54px;
+  text-align: right;
 }
 
 .skill-item p {
@@ -90,6 +92,15 @@ body {
 }
 
 .contact {
+  padding: 100px;
   text-align: center;
   margin-top: 24px;
+}
+
+.contact p {
+  padding: 50px 0 0 0;
+}
+
+.social-links {
+  padding: 27px 0 0 0;
 }
