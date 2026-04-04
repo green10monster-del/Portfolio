@@ -139,4 +139,16 @@ body {
   text-align: center;
   margin-top: 20px;
 }
+
+.skills-content {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-item {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
 }
