@@ -44,13 +44,14 @@ body {
   gap: 20px;
 }
 .about-content img {
+  width:calc(460 / 1000 * 100%);
   order: 0;
   padding: 24px;
 }
 
 .about-text {
   order: 1;
-  margin-left: auto; /* 右端に押し出す */
+  margin-left: auto; 
   text-align: left;
   max-width: 60%;
 }
@@ -79,7 +80,7 @@ body {
 
 .skill-content {
   width: 500px;
-  margin: 0 auto; /* 中央寄せ */
+  margin: 0 auto; 
 }
 .skill-item {
   align-items: center; 
@@ -113,6 +114,34 @@ body {
 }
 
 
+/* work-item */
+.work-item {
+  gap: 32px;
+  margin-top: 8px;
+  color: #515151;
+}
+
+.work-showcase h1 {
+  padding: 50px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.device-mockup img {
+  display: flex;
+  gap: 20px;
+}
+
+.work-description {
+  text-align: center;
+  padding: 0 150px 0 150px;
+}
+
+.work-links {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
 /* スマホ用 */
 @media (max-width: 900px)  {
 
@@ -129,7 +158,7 @@ body {
   justify-content: center;
 }
 
-.about-contentimg {
+.about-content img {
   max-width: 100%; 
   height: auto;  
 }  
@@ -148,11 +177,24 @@ body {
   margin-top: 16px;
 }
 
-
-
 .skill-item p {
   margin-top: 16px;
   font-size: 14px;
 }
+}
 
+/* work-itemスマホ用 */
+.work-item {
+  text-align: center;
+}
+
+.work-showcase h1 {
+  padding: 50px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.device-mockup img {
+  max-width: 100%; 
+  height: auto; 
 }
