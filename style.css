@@ -73,32 +73,35 @@ body {
 
 .skills {
   background-color: #D7BCA7;
-  padding: 50px 0 100px 0;
+  padding: 100px 0 100px 0;
   text-align: center;
-  margin-top: 24px;
+  margin-top: 18px;
+}
+
+.skills h2 {
+  margin-bottom: 56px;
 }
 
 .skills-content {
-  width: min(100%, 720px);
-  margin: 0 auto; 
+  text-align: center;
 }
 
 .skill-item {
   display: flex;
-  align-items: center; 
-  justify-content: flex-start; 
-  gap: 24px;
-  padding: 50px 0 0 0;
+  gap: 36px;
+  padding-bottom: 36px;
+  margin-left: 300px;
+  text-align: center;
+  line-height: 2;
+
 }
 
 .skill-item h4 {
-  width: 120px;
-  text-align: left;
 }
 
 .skill-item p {
   margin: 0;
-  flex: 1;
+  flex: 1; 
   text-align: left;
 }
 
