@@ -78,25 +78,28 @@ body {
   margin-top: 24px;
 }
 
-.skill-content {
-  width: 500px;
+.skills-content {
+  width: min(100%, 720px);
   margin: 0 auto; 
 }
+
 .skill-item {
+  display: flex;
   align-items: center; 
   justify-content: flex-start; 
+  gap: 24px;
   padding: 50px 0 0 0;
-  text-align: center;
-  display: flex;
 }
 
 .skill-item h4 {
-  text-align: right;
+  width: 120px;
+  text-align: left;
 }
 
 .skill-item p {
   margin: 0;
-  flex: 1; 
+  flex: 1;
+  text-align: left;
 }
 
 .contact {
