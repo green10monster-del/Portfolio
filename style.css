@@ -4,17 +4,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Shippori Mincho B1
 }
 
 body {
   background-color: #EFECEA;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   max-width: 1200px;  
   margin: 0 auto;     
-  font-size: 16px;    
+  font-size: 16px; 
 }
 
+h2 {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4,h3 {
+  font-weight: normal
+}
+
+
 .main-visual {
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +43,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  font-size: 70px;
+  font-size: 55px;
   color: #796C6C;
 }
 
@@ -71,6 +88,10 @@ body {
   padding: 36px;
 }
 
+.work-img {
+  object-fit: contain;
+}
+
 .skills {
   background-color: #D7BCA7;
   padding: 100px 0 100px 0;
@@ -90,7 +111,9 @@ body {
   display: flex;
   gap: 36px;
   padding-bottom: 36px;
-  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   line-height: 2;
 
@@ -153,14 +176,19 @@ body {
   padding: 50px 0 0 0;
 }
 
+.SP-br {
+  display: none;
+}
+
 /* スマホ用 */
 @media (max-width: 900px)  {
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Shippori Mincho B1
+.main-visual {
+  font-size: 35px;
+}
+
+.SP-br {
+  display: block;
 }
 
 .about-content {
@@ -191,6 +219,7 @@ body {
 .skill-item p {
   margin-top: 16px;
   font-size: 14px;
+  width: 196px;
 }
 }
 
