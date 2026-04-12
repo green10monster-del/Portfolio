@@ -88,7 +88,12 @@ h4,h3 {
   padding: 36px;
 }
 
-.work-img {
+.work-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.work-img img {
   object-fit: contain;
 }
 
@@ -191,6 +196,10 @@ h4,h3 {
   display: block;
 }
 
+.about {
+  padding: 50px;
+}
+
 .about-content {
   flex-direction: column;
   align-items: center;
@@ -199,6 +208,7 @@ h4,h3 {
 
 .about-content img {
   max-width: 100%; 
+  width: 100%;
   height: auto;  
 }  
 
@@ -234,6 +244,10 @@ h4,h3 {
   padding: 50px;
   text-align: center;
   margin-top: 16px;
+}
+
+.work-img img {
+  height: auto; 
 }
 
 .device-mockup img {
