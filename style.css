@@ -231,7 +231,6 @@ h4,h3 {
   font-size: 14px;
   width: 196px;
 }
-}
 
 /* work-itemスマホ用 */
 .work-item {
@@ -260,4 +259,5 @@ h4,h3 {
   align-items: center;
   justify-content: center;
   gap: 100px;
+}
 }
