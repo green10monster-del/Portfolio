@@ -47,6 +47,11 @@ h4,h3 {
   color: #796C6C;
 }
 
+.show {
+  filter: blur(0);
+  opacity: 1;
+}
+
 .about {
   padding: 100px;
   text-align: center;
