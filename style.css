@@ -47,9 +47,15 @@ h4,h3 {
   color: #796C6C;
 }
 
+.blur-text {
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 1.5s ease-out;
+}
+
 .show {
-  filter: blur(0);
-  opacity: 1;
+    filter: blur(0);
+    opacity: 1;
 }
 
 .about {
@@ -64,7 +70,22 @@ h4,h3 {
   align-items: center;
   justify-content: flex-start; 
   gap: 20px;
+
+  /* アニメーションの設定 */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s 1s;
+  transform: translateY(100%);
 }
+
+.about-content.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+
 .about-content img {
   width:calc(460 / 1000 * 100%);
   order: 0;
@@ -91,6 +112,15 @@ h4,h3 {
 .work-item {
   display: inline-block;
   padding: 36px;
+  visibility: hidden;
+  transition: all 0.5s 1s;
+  transform: translateX(100%);
+}
+
+.work-item.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
 }
 
 .work-item a {
@@ -115,6 +145,15 @@ h4,h3 {
 
 .skills-content {
   text-align: center;
+  visibility: hidden;
+  transition: all 0.5s 1s;
+  transform: scale(0.5);
+}
+
+.skills-content.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
 }
 
 .skill-item {
