@@ -186,7 +186,16 @@ h4,h3 {
 
 .social-links {
   padding: 27px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
+
+.social-links img {
+  object-fit: contain;
+}
+
 
 
 /* work-item */

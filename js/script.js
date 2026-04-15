@@ -1,14 +1,16 @@
-const text = document.querySelector(".blur-text");
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    const trigger = window.innerHeight / 1.3;
-    const textTop = text.getBoundingClientRect().top;
+const blurTexts = document.querySelectorAll(".blur-text");
+
+window.addEventListener("scroll", () => {
+  const trigger = window.innerHeight / 1.3;
+  blurTexts.forEach((el) => {
+    const textTop = el.getBoundingClientRect().top;
     if (textTop < trigger) {
-      text.classList.add("show");
+      el.classList.add("show");
     } else {
-      text.classList.remove("show");
+      el.classList.remove("show");
     }
   });
+});
 
   window.addEventListener('scroll', function(){
   const scroll = window.scrollY;
