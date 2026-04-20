@@ -62,6 +62,8 @@ h4,h3 {
   padding: 100px;
   text-align: center;
   margin-top: 24px;
+  max-width: 1200px;
+  margin-inline:auto;
 }
 
 .about-content {
@@ -107,6 +109,8 @@ h4,h3 {
 .works {
   text-align: center;
   margin-top: 24px;
+  max-width: 1200px;
+  margin-inline:auto;
 }
 
 .work-item {
@@ -233,6 +237,8 @@ h4,h3 {
 .work-links {
   text-align: center;
   padding: 50px 0 0 0;
+  width: 100px;
+  height: 100px;
 }
 
 .SP-br {
