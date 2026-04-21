@@ -11,13 +11,12 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  max-width: 1200px;  
+  font-style: normal;  
   margin: 0 auto;     
   font-size: 16px; 
 }
 
-h2 {
+h1,h2 {
   font-family: "Shippori Mincho B1", serif;
   font-weight: 400;
   font-style: normal;
@@ -116,12 +115,16 @@ h4,h3 {
 .work-item {
   display: inline-block;
   padding: 36px;
+}
+
+.work-anime {
   visibility: hidden;
   transition: all 0.5s 1s;
   transform: translateX(100%);
 }
 
-.work-item.is-active {
+
+.work-anime.is-active {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
@@ -239,6 +242,12 @@ h4,h3 {
   padding: 50px 0 0 0;
   width: 100px;
   height: 100px;
+  margin: 0 auto;
+}
+
+.work-links:hover {
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
 }
 
 .SP-br {
